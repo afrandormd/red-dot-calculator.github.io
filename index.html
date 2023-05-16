@@ -8,19 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="form-container">
     <h2>Red Dot Calculator</h2>
-    <hr>
-    <div id="display">
+    <h3>
         Jatah WF Sekitar: <span id="result"></span>
-    </div>
-<form action="">
-    <input type="number" name="" id="euro_per_gold" placeholder="euro/gold"><br>
-    <input type="number" name="" id="euro_old" placeholder="Euro Old"><br>
-    <input type="number" name="" id="gold_old" placeholder="Gold Old"><br>
-    <input type="number" name="" id="euro_update" placeholder="Euro Update"><br>
-    <input type="number" name="" id="gold_update" placeholder="Gold Update">
-</form>
-<input type="submit" value="calculate" onclick="calculate()">
+    </h3>
+    <form action="">
+        <div class="num_field">
+            <input type="number" name="" id="euro_per_gold" placeholder="euro/gold">
+        </div>
+        <div class="num_field">
+            <input type="number" name="" id="euro_old" placeholder="Euro Old">
+        </div>
+        <div class="num_field">
+            <input type="number" name="" id="gold_old" placeholder="Gold Old">
+        </div>
+        <div class="num_field">
+            <input type="number" name="" id="euro_update" placeholder="Euro Update">
+        </div>
+        <div class="num_field">
+            <input type="number" name="" id="gold_update" placeholder="Gold Update">
+        </div>
+    <input type="submit" value="calculate" onclick="calculate()">
+    </form>
+</div>
 <script src="script.js">
 </script>
 </body>
